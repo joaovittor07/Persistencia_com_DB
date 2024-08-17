@@ -45,9 +45,9 @@ input[type="text"] {
 
 .button-container {
     display: flex;
-    justify-content: center; /* Centraliza os botões */
+    justify-content: center;
     margin-top: 20px;
-    gap: 20px; /* Espaço entre os botões */
+    gap: 20px;
 }
 
 input[type="button"],
@@ -56,7 +56,7 @@ input[type="submit"] {
     color: white;
     border: none;
     padding: 10px;
-    width: 150px; /* Largura fixa para os botões */
+    width: 150px;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
@@ -75,9 +75,8 @@ select {
     border: 1px solid #ccc;
     border-radius: 6px;
     font-size: 1em;
-    appearance: none; /* Remove o estilo padrão do select */
+    appearance: none;
     background-color: #fff;
-    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="292.362" height="292.362" viewBox="0 0 292.362 292.362"><path fill="%23333" d="M287.812 69.61L166.13 191.293c-7.057 7.057-18.503 7.057-25.559 0L4.551 69.61c-7.811-7.811-2.285-21.189 8.756-21.189h265.496c11.038 0 16.562 13.379 8.756 21.189z"/></svg>');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 12px;
