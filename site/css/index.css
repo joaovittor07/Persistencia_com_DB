@@ -7,13 +7,13 @@ body {
 header {
     background-color: #007BFF;
     color: white;
-    padding: 20px 0; /* Reduzi a altura do header */
+    padding: 20px 0; 
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 3.5em; /* Aumentei o tamanho da fonte */
+    font-size: 3.5em;
 }
 
 .button-container {
@@ -41,9 +41,9 @@ header h1 {
 
 
 h1 {
-    text-align: center; /* Centraliza os títulos */
-    font-size: 3.5em; /* Aumenta o tamanho da fonte */
-    margin-top: 20px; /* Adiciona margem superior */
+    text-align: center;
+    font-size: 3.5em; 
+    margin-top: 20px;
 }
 
 table {
