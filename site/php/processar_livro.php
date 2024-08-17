@@ -6,7 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $autor_id = $_POST['autor'];
     $categoria_id = $_POST['categoria'];
 
-    // Verificar se o autor existe
     $autor_check = $conn->prepare("SELECT id FROM autores WHERE id = ?");
     $autor_check->bind_param("i", $autor_id);
     $autor_check->execute();
@@ -15,8 +14,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($autor_check->num_rows == 0) {
         die("Autor não encontrado.");
     }
-
-    // Verificar se a categoria existe
     $categoria_check = $conn->prepare("SELECT id FROM categorias WHERE id = ?");
     $categoria_check->bind_param("i", $categoria_id);
     $categoria_check->execute();
